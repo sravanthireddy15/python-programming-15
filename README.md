@@ -54,9 +54,38 @@ n2=n3
 count++
 
 
-// rock paper scissors game
+// a program to print nos divisible by 7 but not by 5
+for number in range(2000,3200):
+if (number%7==0) and (number%5!=0):
+print(number,",")
 
 
+//rock paper scissor game
+p1=input(" enter your choice")
+p2=input("enter your choice")
+if (p1==p2)
+ print(" it is a tie")
+elif p1='rock':
+ if p2='scissors':
+ print(" p1 won")
+ else:
+ print(" p2 won")
+elif p1='scissors':
+ if p2= 'paper':
+ print("p1 won")
+ else:
+ print("p2 won")
+elif p1='paper':
+ if p2='rock':
+ print(" p1 won")
+ else:
+ print("p2 won")
+ print(" start new game")
+else: 
+print(" invalid input")
+ 
+
+ 
 
 
 
