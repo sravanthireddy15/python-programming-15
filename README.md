@@ -84,6 +84,20 @@ elif p1='paper':
 else: 
 print(" invalid input")
  
+ 
+ //a class program
+ class shape():
+ def area(self,area):
+ self.area=0
+ print(" the area of the shape is {}".format(self))
+ class square() extends shape():
+ def lenth(self, length):
+ def area(self,area):
+ self.area= length* length
+ print(" the area is {}".format(self))
+ square =square( 10,area)
+ square.length(10)
+ square.area(self,area)
 
  
 
